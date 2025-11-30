@@ -8,7 +8,6 @@ def main():
         path_to_book = sys.argv[1]
         text = get_book_text(path_to_book)
         word_count = num_words(text)
-        chars = num_characters(text)
         sorted = sorted_chars(num_characters(text))
         pretty_print(path_to_book, word_count, sorted)
     else:
